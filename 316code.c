@@ -3,6 +3,14 @@
 int main()
 {
 	
+	/*
+ 
+ 
+ code for cse 316 
+ 
+ 
+ 
+  */
   printf("\t\t Scheduling\n\n\n\n");
   long int n,i=0,j=0;
   printf("Enter Number of Processes : ");

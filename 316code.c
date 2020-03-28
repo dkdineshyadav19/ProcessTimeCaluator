@@ -133,7 +133,7 @@ printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
  
  
  
- 
+ now for the priority
  
  
   */

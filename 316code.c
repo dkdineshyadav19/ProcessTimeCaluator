@@ -33,10 +33,10 @@ int main()
   {
     printf("\t\t\t|  P[%0.0lf]   |       %0.0lf      |     %0.0lf      |\n",process[i],arrivalTime[i],burstTime[i]);
   }
-    printf("\t\t\t---------------------------------------\n");
+    printf("\t\t\t--------------------#####--------------\n");
 
 
-  printf("\n\n\t\t\t..........Sorting Processes according to Arrivaltime.....\n");
+  printf("\n\n\t\t\t..........Sorting Processes__________ according________ to Arrivaltime.....\n");
 
   for(i=0;i<n;i++)
   {
@@ -60,19 +60,19 @@ int main()
       }
     }
   }
-  printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
-  printf("\t\t\t---------------------------------------\n");
+  printf("\n\n\t\t\t **********Now Values are ******** \n\n");
+  printf("\t\t\t----------------########----------------\n");
   printf("\t\t\t| Process | Arrival Time | Burst Time |\n");
-  printf("\t\t\t---------------------------------------\n");
+  printf("\t\t\t----------------########---------------\n");
   for(i=0;i<n;i++)
   {
     printf("\t\t\t|  P[%0.0lf]   |       %0.0lf      |     %0.0lf      |\n",process[i],arrivalTime[i],burstTime[i]);
   }
-    printf("\t\t\t---------------------------------------\n");
+    printf("\t\t\t--------------#######---------------------\n");
 
 
 /*sorting
-Arrival time <= Execution time
+Arrival time 
 */
 
 
@@ -117,7 +117,7 @@ Arrival time <= Execution time
     turnaround_final += turnaroundTime[i];
   }
   turnaround_avg=turnaround_final/n;
-printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
+printf("\n\n\t\t\t ############## Values :: now  ############\n\n");
   printf("\t\t\t-----------------------------------------------------------------------------\n");
   printf("\t\t\t| Process | Arrival Time | Burst Time |  Waiting Time  |  Turn Around Time  |\n");
   printf("\t\t\t-----------------------------------------------------------------------------\n");
@@ -125,7 +125,7 @@ printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
   {
     printf("\t\t\t|  P[%0.0lf]   |       %0.0lf      |     %0.0lf      |        %0.0lf       |         %0.0lf          |\n",process[i],arrivalTime[i],burstTime[i],waitingTime[i],turnaroundTime[i]);
   }
-    printf("\t\t\t-----------------------------------------------------------------------------\n");
+    printf("\t\t\t------------------------#########--------------------------------------------\n");
 	
 
 
@@ -139,7 +139,6 @@ printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
   */
   /*
  now we have to do priority = 1+ Waiting time 
-   for Estimated run time
   */
  
   
@@ -156,7 +155,7 @@ printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
   }
 
 
-  printf("\n\n\t\t\t -------------- Final Values are --------------\n\n");
+  printf("\n\n\t\t\t -------####---- Last Result -----#####---\n\n");
   printf("\t\t\t-----------------------------------------------------------------------------\n");
   printf("\t\t\t| Process | Arrival Time | Burst Time |  Waiting Time  |  Turn Around Time  |\n");
   printf("\t\t\t-----------------------------------------------------------------------------\n");
@@ -165,12 +164,19 @@ printf("\n\n\t\t\t -------------- Now Values are --------------\n\n");
   {
     printf("\t\t\t|  P[%0.0lf]   |       %0.0lf      |     %0.0lf      |        %0.0lf       |         %0.0lf          |\n",process[i],arrivalTime[i],burstTime[i],waitingTime[i],turnaroundTime[i]);
   }
-    printf("\t\t\t-----------------------------------------------------------------------------\n");
+    printf("\t\t\t---------------------##############------------------------------------------------\n");
 
   printf("\n\n\n\t\t\tAverage Turn Around Time : %lf",turnaround_avg);
   printf("\n\t\t\tAverage Waiting Time     : %lf\n\n",wait_avg);
 
-	
+/*
+ 
+ 
+ 
+ :::::::::::::::;code end :::::::::
+ 
+ 
+  */	
   getch();
   return 0;
 }
